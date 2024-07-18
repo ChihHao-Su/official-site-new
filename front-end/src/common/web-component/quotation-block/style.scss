@@ -1,0 +1,20 @@
+@import "common.scss";
+
+div.quotation {
+    @extend .card, .card-body;
+    display: block;
+    flex-grow: 0;
+
+    .mgid {
+        font-family: 'CMU Serif';
+        transform:translateY(2px);
+    }
+
+    .text {
+        font-family: 'GenYoMin TW R';
+    }
+
+    .date {
+        font-size: .7em;
+    }
+}

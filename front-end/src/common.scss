@@ -1,0 +1,30 @@
+@import '~bootstrap/scss/bootstrap';
+
+$navbarHeight: 4.5em;
+
+body {
+    background-color: #1b1c1d;
+}
+
+iframe {
+    width: 100%;
+    // Wait for iframe-resizer to update.
+    height: 100vh;
+}
+
+.navbar {
+    height: $navbarHeight;
+}
+
+.navbar >* {
+    height: 100%;
+}
+
+.sep-line {
+    margin: 20px auto;
+    width: 500px;
+}
+
+.undernavbar-spacer {
+    height: $navbarHeight;
+}

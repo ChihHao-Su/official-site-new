@@ -1,0 +1,61 @@
+@import "common.scss";
+
+#img1 {
+    background-image: url("广告1.png");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    //width: 100%;
+}
+
+
+@keyframes slide-in-bottom {
+    from {
+        transform: translateY(90%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-bottom-2 {
+    from {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#廣告語 {
+    position: absolute;
+    right: 130px;
+    bottom: 35px;
+    img {
+        height: 135px;
+        display: block;
+    }
+    #text1 {
+        animation: slide-in-bottom 1s ease-out forwards;
+    }
+    #text2 {
+        opacity: 0;
+        animation: slide-in-bottom-2 2s ease-out 0.6s forwards;
+    }
+}
+
+#pics {
+    margin: 0 auto;
+    width: 85vw;
+    max-width: 1120px;
+    img {
+        width: 100%;
+        display: block;
+        margin: 100px 0;
+    }
+}
