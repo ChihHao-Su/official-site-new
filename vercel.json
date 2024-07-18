@@ -1,7 +1,0 @@
-{
-    "functions": {
-    },
-    "buildCommand": "yarn run build",
-    "installCommand": "yarn install",
-    "outputDirectory": "./build"
-}
